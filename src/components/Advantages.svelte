@@ -11,29 +11,35 @@
 
 <Table>
 	<TableHead>
-		<TableHeadCell>Product name</TableHeadCell>
-		<TableHeadCell>Color</TableHeadCell>
-		<TableHeadCell>Category</TableHeadCell>
-		<TableHeadCell>Price</TableHeadCell>
+		<TableHeadCell>Market</TableHeadCell>
+		<TableHeadCell>Target functions</TableHeadCell>
+		<TableHeadCell>Needs download?</TableHeadCell>
+		<TableHeadCell>Paid?</TableHeadCell>
 	</TableHead>
 	<TableBody tableBodyClass="divide-y">
 		<TableBodyRow>
-			<TableBodyCell>Apple MacBook Pro 17"</TableBodyCell>
-			<TableBodyCell>Sliver</TableBodyCell>
-			<TableBodyCell>Laptop</TableBodyCell>
-			<TableBodyCell>$2999</TableBodyCell>
+			<TableBodyCell>MyWayMap</TableBodyCell>
+			<TableBodyCell>Community places, commercial outlets, local onsight events</TableBodyCell>
+			<TableBodyCell>❌</TableBodyCell>
+			<TableBodyCell>❌</TableBodyCell>
 		</TableBodyRow>
 		<TableBodyRow>
-			<TableBodyCell>Microsoft Surface Pro</TableBodyCell>
-			<TableBodyCell>White</TableBodyCell>
-			<TableBodyCell>Laptop PC</TableBodyCell>
-			<TableBodyCell>$1999</TableBodyCell>
+			<TableBodyCell>Google maps</TableBodyCell>
+			<TableBodyCell>City navigation</TableBodyCell>
+			<TableBodyCell>✅</TableBodyCell>
+			<TableBodyCell>❌</TableBodyCell>
 		</TableBodyRow>
 		<TableBodyRow>
-			<TableBodyCell>Magic Mouse 2</TableBodyCell>
-			<TableBodyCell>Black</TableBodyCell>
-			<TableBodyCell>Accessories</TableBodyCell>
-			<TableBodyCell>$99</TableBodyCell>
+			<TableBodyCell>Trip advisor</TableBodyCell>
+			<TableBodyCell>Hotels, attractions, overall everything</TableBodyCell>
+			<TableBodyCell>❌</TableBodyCell>
+			<TableBodyCell>✅</TableBodyCell>
+		</TableBodyRow>
+		<TableBodyRow>
+			<TableBodyCell>2gis</TableBodyCell>
+			<TableBodyCell>City navigations</TableBodyCell>
+			<TableBodyCell>✅</TableBodyCell>
+			<TableBodyCell>❌</TableBodyCell>
 		</TableBodyRow>
 	</TableBody>
 </Table>
