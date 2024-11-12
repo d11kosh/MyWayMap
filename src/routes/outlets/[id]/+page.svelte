@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Map from '$components/dynamic/Map.svelte';
     import { Button, ButtonGroup, Rating } from 'flowbite-svelte';
     import Comment from '$components/dynamic/Comment.svelte';
 
@@ -27,6 +28,12 @@
                 <Button>Rate place</Button>
                 <Button href="/testbook.pdf" download="somebook">Go to website</Button>
             </ButtonGroup>
+        </div>
+    </div>
+    <div class="mt-12">
+        <h1 class="text-center font-bold text-2xl">Location</h1>
+        <div class="mt-5 max-w-full max-h-72">
+            <Map/>
         </div>
     </div>
     <div class="mt-20">
