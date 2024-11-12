@@ -8,9 +8,9 @@
 	</NavBrand>
 	<NavUl {hidden}>
 		<NavLi href="/" activeClass = {""}>Home</NavLi>
-		<NavLi href="/books">Explore</NavLi>
-		<NavLi href="/quizzes">Activities</NavLi>
-		<NavLi href="/articles">Communities</NavLi>
+		<NavLi href="/outlets">Outlets</NavLi>
+		<NavLi href="/events">Events</NavLi>
+		<NavLi href="/contacts">Contact us</NavLi>
 	</NavUl>
 	<a href="/auth/login">
 		<Button>Account</Button>

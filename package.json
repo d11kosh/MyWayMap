@@ -2,7 +2,6 @@
 	"name": "my-way-map",
 	"description": "Personalized Kazakhstan geo map app of commercial places for tourists",
 	"version": "0.0.1",
-	"type": "module",
 	"author": "Alerrad",
 	"license": "MIT",
 	"homepage": "https://my-way-map.netlify.app",
@@ -46,12 +45,14 @@
 		"vite": "^5.0.3",
 		"zod": "^3.23.8"
 	},
+	"type": "module",
 	"dependencies": {
 		"@popperjs/core": "^2.11.8",
 		"argon2": "^0.41.1",
 		"flowbite": "^2.5.2",
 		"flowbite-svelte": "^0.47.2",
 		"flowbite-svelte-icons": "^2.0.2",
+		"jose": "^5.9.6",
 		"jsonwebtoken": "^9.0.2",
 		"mongodb": "^6.10.0",
 		"tailwind-merge": "^2.5.4"

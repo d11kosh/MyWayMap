@@ -10,15 +10,7 @@ const config = {
 	kit: {
 		alias: {
 			$components: './src/components',
-		},
-		csp: {
-			directives: {
-				'script-src': ['self'],
-			},
-			reportOnly: {
-				'script-src': ['self'],
-				'report-uri': ['/']
-			}
+			$db: './src/db',
 		},
 		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
 		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.

@@ -28,7 +28,7 @@
 			<WhatsappSolid class="h-8 w-8" />
 		</div>
 		<div class="mt-10 flex flex-col items-center">
-			<Button>Create account</Button>
+			<Button type="submit">Create account</Button>
 		</div>
 	</form>
 	<span class="mx-auto max-w-sm">

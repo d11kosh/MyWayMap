@@ -1,8 +1,8 @@
 <script>
     import { page } from '$app/stores';
-    import Hero from '$components/Hero.svelte';
-    import About from '$components/About.svelte';
-    import Advantages from '$components/Advantages.svelte';
+    import Hero from '$components/static/Hero.svelte';
+    import About from '$components/static/About.svelte';
+    import Advantages from '$components/static/Advantages.svelte';
 </script>
 
 <Hero/>
